@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    tools:context="main.halanhalanyuk.Penginapan">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/point"/>
+        <TextView
+            android:id="@+id/tekslokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="        Lokasi Menginap"/>
+    </LinearLayout>
+
+
+<Spinner
+    android:id="@+id/spinner_lokasi"
+    android:layout_width="280sp"
+    android:layout_height="40sp"
+    style="@style/spinner_style"
+
+    android:prompt="@string/spinner_string"
+    android:layout_marginBottom="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clock2"/>
+        <TextView
+            android:id="@+id/teksmasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="       Tanggal Masuk"/>
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/spinner_tanggal"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        style="@style/spinner_style"
+        android:prompt="@string/spinner_string"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clock2"/>
+
+        <TextView
+            android:id="@+id/tekskeluar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="       Tanggal Keluar"/>
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/spinner_tanggalkeluar"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        style="@style/spinner_style"
+        android:prompt="@string/spinner_string"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cari"
+        android:background="@drawable/border_button"
+        android:layout_marginTop="25sp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="main.halanhalanyuk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logokotak"
+        android:label="Halan-Halan Yuk"
+        android:roundIcon="@drawable/logobulat"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashscreen"
+            android:label="Halan-Halan Yuk"
+            android:theme="@style/no_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Registrasi" />
+        <activity android:name=".Wisata" />
+        <activity android:name=".Login" />
+        <activity android:name=".Kuliner" />
+        <activity android:name=".tips" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".UploadEvent" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".Detail_acara" />
+        <activity android:name=".tambah_kuliner" />
+        <activity android:name=".kuliner_menu"></activity>
+    </application>
+
+</manifest>

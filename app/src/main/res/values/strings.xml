@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">halanhalanyuk</string>
+    <string name="title_acara">Acara</string>
+    <string name="title_Penginapan">Penginapan</string>
+    <string name="title_Wisata">Wisata</string>
+    <string name="title_Kuliner">Kuliner</string>
+    <string name="title_Favorit">Favorit</string>
+    <string name="spinner_string">AndroidSpinnerExample</string>
+
+</resources>

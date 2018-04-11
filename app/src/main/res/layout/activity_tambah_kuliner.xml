@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="main.halanhalanyuk.tambah_kuliner">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Nama Kuliner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/namaKuliner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Keterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/keteranganKuliner"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+
+
+        <ImageView
+            android:id="@+id/img_preview_kuliner"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:background="@color/colorTransparant"
+            android:id="@+id/btnUploadKuliner"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:text="Pilih gambar"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnKirimKuliner"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Kuliner"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

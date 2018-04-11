@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "929308981330",
+    "firebase_url": "https://halan-halan-yuk.firebaseio.com",
+    "project_id": "halan-halan-yuk",
+    "storage_bucket": "halan-halan-yuk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929308981330:android:abc6d59151977bba",
+        "android_client_info": {
+          "package_name": "main.halanhalanyuk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929308981330-94lh7g6n8gh9uvqcnhjqba45oem2ce3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "main.halanhalanyuk",
+            "certificate_hash": "ea07793b12dc381155eb36d8e1afd2b3dbf4131b"
+          }
+        },
+        {
+          "client_id": "929308981330-n0ovm64tbur9ev6e6shchl80mk156gbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8NExNZeOOk_hNkuPEiSLTeNnIpy8DgAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929308981330-n0ovm64tbur9ev6e6shchl80mk156gbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

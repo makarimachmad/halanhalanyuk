@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="main.halanhalanyuk.Registrasi">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Registrasi"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_username_registrasi"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="username, phone, or email"
+        android:textColorHint="#666565"
+        android:textColor="#666565"
+        android:textSize="15dp"
+        android:gravity="fill_vertical"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#666565"
+        android:maxLines="1"
+        android:maxLength="30"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/edt_password_registrasi"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:hint="............"
+        android:textSize="15dp"
+        android:textColorHint="#666565"
+        android:textColor="#666565"
+        android:layout_gravity="center_horizontal"
+        android:gravity="fill_vertical"
+        android:backgroundTint="#666565"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btn_save_data"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Save Data"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fde107"
+        android:layout_marginTop="10dp"
+        android:text="Sudah Punya Akun? Login"
+        android:gravity="center"
+        android:textSize="17dp" />
+
+
+</LinearLayout>

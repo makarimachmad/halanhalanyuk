@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="main.halanhalanyuk.Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="LOGIN"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/btn_login_google"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text=" Masuk dengan Akun Google"
+        android:drawableLeft="@mipmap/search"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ATAU"
+        android:textColor="#000"
+        android:textSize="23dp"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="username, phone, atau email"
+        android:textColor="#bcb5b5"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#000000"
+        android:maxLength="30"
+        android:inputType="textEmailAddress"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edt_password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:hint="Sandi"
+        android:textSize="15dp"
+        android:textColor="#bcb5b5"
+        android:layout_gravity="center_horizontal"
+        android:gravity="fill_vertical"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_login_manual"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txt_registrasi"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Buat Akun Disini"
+        android:textColor="#fde107"
+        android:textSize="17dp"
+        android:gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_acara"
+        android:icon="@drawable/clock"
+        android:title="Acara" />
+
+    <item
+        android:id="@+id/navigation_penginapan"
+        android:icon="@drawable/resort"
+        android:title="Penginapan" />
+
+    <item
+        android:id="@+id/navigation_wisata"
+        android:icon="@drawable/island"
+        android:title="Wisata" />
+    <item
+        android:id="@+id/navigation_kuliner"
+        android:icon="@drawable/kuliner_icon"
+        android:title="Kuliner" />
+    <item
+        android:id="@+id/navigation_bintang"
+        android:icon="@drawable/star"
+        android:title="Favorit" />
+
+</menu>
